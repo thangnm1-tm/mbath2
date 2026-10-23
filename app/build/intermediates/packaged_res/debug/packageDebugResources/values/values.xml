@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F8FAFC</color>
+    <color name="border">#CBD5E1</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="grade_average">#D97706</color>
+    <color name="grade_average_bg">#FEF3C7</color>
+    <color name="grade_good">#16A34A</color>
+    <color name="grade_good_bg">#DCFCE7</color>
+    <color name="grade_poor">#DC2626</color>
+    <color name="grade_poor_bg">#FEE2E2</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="primary">#1E40AF</color>
+    <color name="primary_light">#DBEAFE</color>
+    <color name="primary_variant">#1D4ED8</color>
+    <color name="role_student">#0284C7</color>
+    <color name="role_teacher">#7C3AED</color>
+    <color name="secondary">#0D9488</color>
+    <color name="secondary_light">#CCFBF1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <string name="add_score">Thêm điểm mới</string>
+    <string name="app_name">Student Manager</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="btn_logout">Đăng xuất</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_view_scores">Xem / Quản lý Bảng Điểm</string>
+    <string name="code_label">Mã số:</string>
+    <string name="delete_confirm_msg">Bạn có chắc chắn muốn xóa mục điểm này không?</string>
+    <string name="delete_confirm_title">Xác nhận xóa</string>
+    <string name="edit_score">Cập nhật điểm</string>
+    <string name="email_label">Email:</string>
+    <string name="invalid_score">Điểm số không hợp lệ (phải từ 0 đến 10)!</string>
+    <string name="login_empty_error">Vui lòng nhập đầy đủ thông tin!</string>
+    <string name="login_failed">Sai tên đăng nhập hoặc mật khẩu!</string>
+    <string name="login_subtitle">Hệ thống Quản lý Điểm &amp; Sinh viên</string>
+    <string name="login_title">Đăng Nhập Hệ Thống</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="quick_test_student">Tài khoản SV: student / 123456</string>
+    <string name="quick_test_teacher">Tài khoản GV: teacher / 123456</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="role_label">Vai trò:</string>
+    <string name="score_management_title">Danh Sách Bảng Điểm</string>
+    <string name="score_val_hint">Điểm số (0.0 - 10.0)</string>
+    <string name="search_hint">Tìm kiếm môn học, mã SV, GV...</string>
+    <string name="student_code_hint">Mã sinh viên</string>
+    <string name="subject_hint">Tên môn học</string>
+    <string name="teacher_code_hint">Mã giảng viên</string>
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="welcome">Xin chào,</string>
+    <style name="Theme.StudentManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>

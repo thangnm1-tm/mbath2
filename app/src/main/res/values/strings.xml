@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Student Manager</string>
+
+    <!-- Login -->
+    <string name="login_title">Đăng Nhập Hệ Thống</string>
+    <string name="login_subtitle">Hệ thống Quản lý Điểm &amp; Sinh viên</string>
+    <string name="username_hint">Tên đăng nhập</string>
+    <string name="password_hint">Mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="btn_login">ĐĂNG NHẬP</string>
+    <string name="quick_test_teacher">Tài khoản GV: teacher / 123456</string>
+    <string name="quick_test_student">Tài khoản SV: student / 123456</string>
+    <string name="login_failed">Sai tên đăng nhập hoặc mật khẩu!</string>
+    <string name="login_empty_error">Vui lòng nhập đầy đủ thông tin!</string>
+
+    <!-- Main -->
+    <string name="welcome">Xin chào,</string>
+    <string name="role_label">Vai trò:</string>
+    <string name="code_label">Mã số:</string>
+    <string name="email_label">Email:</string>
+    <string name="btn_view_scores">Xem / Quản lý Bảng Điểm</string>
+    <string name="btn_logout">Đăng xuất</string>
+
+    <!-- Scores -->
+    <string name="score_management_title">Danh Sách Bảng Điểm</string>
+    <string name="search_hint">Tìm kiếm môn học, mã SV, GV...</string>
+    <string name="add_score">Thêm điểm mới</string>
+    <string name="edit_score">Cập nhật điểm</string>
+    <string name="delete_confirm_title">Xác nhận xóa</string>
+    <string name="delete_confirm_msg">Bạn có chắc chắn muốn xóa mục điểm này không?</string>
+    <string name="btn_save">Lưu</string>
+    <string name="btn_cancel">Hủy</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="student_code_hint">Mã sinh viên</string>
+    <string name="teacher_code_hint">Mã giảng viên</string>
+    <string name="subject_hint">Tên môn học</string>
+    <string name="score_val_hint">Điểm số (0.0 - 10.0)</string>
+    <string name="invalid_score">Điểm số không hợp lệ (phải từ 0 đến 10)!</string>
+</resources>
